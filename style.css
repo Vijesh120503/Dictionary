@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease-in-out;
+  background-color: rgb(22, 21, 21);
+}
+.container {
+  background: rgba(208, 208, 208, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input {
+  padding: 10px;
+  width: 70%;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 15px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #0056b3;
+}
+.result {
+  text-align: left;
+  margin-top: 20px;
+}
+.word {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.phonetic {
+  font-size: 18px;
+  color: #007BFF;
+  margin-top: 5px;
+}
+.partOfSpeech {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #555;
+}
+.definition {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #333;
+}
+.example {
+  font-style: italic;
+  color: #666;
+  margin-top: 5px;
+}
+.error {
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
+}
